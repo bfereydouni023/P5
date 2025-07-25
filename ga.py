@@ -364,7 +364,6 @@ class Individual_DE(object):
 
 Individual = Individual_Grid
 
-# Both do
 def generate_successors(population):
     results = []
     # STUDENT Design and implement this
