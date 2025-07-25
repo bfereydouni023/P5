@@ -75,8 +75,8 @@ class Individual_Grid(object):
         right = width - 1
 
         tile_weights = [
-            ("-", 10), ("X", 10), ("?", 3), ("M", 2), ("B", 4),
-            ("o", 5), ("|", 1), ("T", 1), ("E", 2)
+            ("-", 2), ("X", 10), ("?", 20), ("M", 10), ("B", 4),
+            ("20", 5), ("|", 1), ("T", 1), ("E", 10)
         ]
         weighted_tiles = [tile for tile, weight in tile_weights for _ in range(weight)]
 
